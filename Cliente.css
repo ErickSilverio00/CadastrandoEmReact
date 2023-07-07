@@ -1,0 +1,130 @@
+@import url(/src/assets/css/variaveisGlobais.css);
+
+.cliente {
+  width: 300px;
+  height: -webkit-fill-available;
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: var(--fonte-secundaria);
+}
+
+.cliente .cabecalho {
+  background-color: #F0F0F0;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+
+.cabecalho img {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -50px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho-deletar {
+  right: 10px;
+  top: 10px;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cabecalho-deletar:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.cliente .rodape {
+  background: var(--branco);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.cliente .rodape h4 {
+  font-size: 24px;
+  font-family: var(--fonte-principal);
+  line-height: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.rodape-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+}
+
+.rodape-logos img {
+  width: 42px;
+  margin-top: 8px;
+}
+
+.rodape Button {
+  width: max-content;
+  text-transform: uppercase;
+}
+
+.rodape-edicao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+  margin-inline: 28px;
+  gap: 1em;
+}
+
+.rodape-edicao__input,
+.rodape-edicao__select .native-select-root {
+  width: 100%;
+  background-color: var(--branco);
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rodape-edicao__select {
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
+
+.rodape-edicao__select .native-select-icon {
+  right: 8px;
+}
+
+.rodape-edicao__botoes {
+  display: flex;
+  gap: 1em;
+}
+
+@media screen and (max-width: 450px) {
+  .cabecalho img {
+    bottom: -35px;
+  }
+
+  .cliente .rodape {
+    padding-top: 40px;
+    padding-bottom: 15px;
+  }
+
+  .rodape-logos {
+    margin: 16px 0;
+  }
+
+  .cliente .rodape h4 {
+    margin-bottom: 8px;
+  }
+
+  .rodape-edicao__botoes {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-edicao__botoes button {
+    width: 100%;
+    margin-top: 8px;
+  }
+}
