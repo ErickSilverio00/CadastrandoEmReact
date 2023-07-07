@@ -116,4 +116,14 @@
   .cliente .rodape h4 {
     margin-bottom: 8px;
   }
+
+  .rodape-edicao__botoes {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-edicao__botoes button {
+    width: 100%;
+    margin-top: 8px;
+  }
 }
