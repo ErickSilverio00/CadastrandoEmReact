@@ -15,16 +15,14 @@
 
 .setor .clientes {
     display: flex;
-    justify-content: space-around;
-    margin-top: 32px;
-    flex-wrap: wrap;
-    gap: 10em;
+    height: 100%;
+    margin-top: 24px;
 }
 
 .swiper {
     text-align: center;
     width: 900px;
-    height: -webkit-fill-available;
+    height: 100%;
 }
 
 .swiper-slide {
@@ -35,5 +33,5 @@
     font-size: 22px;
     font-weight: bold;
     color: #fff;
-    height: -webkit-fill-available;
+    height: 100%;
 }
