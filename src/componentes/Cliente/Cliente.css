@@ -2,7 +2,7 @@
 
 .cliente {
   width: 300px;
-  height: -webkit-fill-container;
+  height: -webkit-fill-available;
   margin-bottom: 2em;
   text-align: center;
   font-family: var(--fonte-secundaria);
