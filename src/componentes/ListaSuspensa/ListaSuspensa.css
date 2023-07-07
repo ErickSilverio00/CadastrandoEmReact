@@ -1,19 +1,8 @@
+@import url(/src/assets/css/variaveisGlobais.css);
+
 .lista-suspensa {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 24px;
-}
-
-.lista-suspensa label {
-    margin-bottom: 8px;
-}
-
-.lista-suspensa select {
-    background-color: #FFFFFF;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
-    width: 100%;
-    border: none;
-    font-size: 24px;
-    padding: 24px;
-    box-sizing: border-box;
+    margin-top: 24px;
+    background-color: var(--branco);
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }

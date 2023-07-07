@@ -1,0 +1,22 @@
+@import url(/src/assets/css/variaveisGlobais.css);
+
+.titulo-section {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.titulo-section h1 {
+    font-size: 32px;
+    font-family: var(--fonte-principal);
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+    color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+@media screen and (max-width: 450px) {
+    .titulo-section {
+        margin-bottom: 16px;
+    }
+}

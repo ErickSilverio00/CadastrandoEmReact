@@ -1,0 +1,9 @@
+:root {
+    --cor-primaria: #61098A;
+    --cor-secundaria: #C69CDA;
+    --branco: #FFFFFF;
+    --preto: #000000;
+
+    --fonte-principal: 'Prata', serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
