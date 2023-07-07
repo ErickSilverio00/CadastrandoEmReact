@@ -2,7 +2,7 @@
 
 .setor {
     text-align: center;
-    padding: 64px;
+    padding: 32px;
 }
 
 .setor h3 {
@@ -35,4 +35,5 @@
     font-size: 22px;
     font-weight: bold;
     color: #fff;
+    height: -webkit-fill-available;
 }
